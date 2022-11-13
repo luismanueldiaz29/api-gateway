@@ -1,0 +1,16 @@
+{
+    "endpoints": [
+      {
+        "endpoint": "/",
+        "backend": [
+          {
+            "url_pattern": "/__health",
+            "host": [
+              "http://localhost:3000"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
