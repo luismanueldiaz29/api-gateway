@@ -2,7 +2,7 @@
     "jwt": {
       "auth/validator": {
         "alg": "RS256",
-        "jwk_url": "http://backend-authentication/keys",
+        "jwk_url": "http://backend-authentication:5001/keys",
         "disable_jwk_security": true
       },
       "validation/cel": [

@@ -1,0 +1,39 @@
+{
+  "endpoints": [
+    {
+      "endpoint": "/api/user",
+      "method": "GET",
+      "input_headers": [
+        "Authorization"
+      ],
+      "input_query_strings": [
+        "*"
+      ],
+      "output_encoding": "no-op",
+      "backend": [
+        {
+          "host_env": [
+            "AUTH_HOST"
+          ],
+          "url_pattern": "/api/user"
+        }
+      ]
+    },
+    {
+      "endpoint": "/api/user",
+      "method": "POST",
+      "input_headers": [
+        "Authorization"
+      ],
+      "output_encoding": "no-op",
+      "backend": [
+        {
+          "host_env": [
+            "AUTH_HOST"
+          ],
+          "url_pattern": "/api/user"
+        }
+      ]
+    }
+  ]
+}
