@@ -38,6 +38,7 @@ AUTH_HOST=http://backend-authentication:5001
 
 ## Run with docker
 
+### Run command in krakend folder
 ```
 docker compose up --build -d
 ```
